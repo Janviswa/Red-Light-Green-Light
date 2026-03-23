@@ -4,31 +4,23 @@
 
 ---
 
-## 📌 GitHub Description
-
-AI-powered "Red Light, Green Light" game using OpenCV, MediaPipe Pose, and real-time motion detection with sound effects and interactive gameplay.
-
----
-
-## 📖 README.md
-
 ## 📌 Overview
 
-This project is an AI-powered recreation of the popular **"Red Light, Green Light"** game from Squid Game using **Computer Vision** and **Pose Detection**.
+This project presents an AI-powered recreation of the popular **"Red Light, Green Light"** game inspired by Squid Game, built using **Computer Vision** and **Pose Detection** techniques.
 
-The system uses your webcam to track movement in real-time and determines whether the player moves during "Red Light". If movement is detected — GAME OVER.
+The system leverages real-time webcam input to monitor player movement and enforces game rules by detecting motion during "Red Light" phases.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-* 🎥 Real-time webcam tracking
-* 🧠 AI-based pose detection (MediaPipe)
-* 🔴🟢 Red Light / Green Light logic
-* 🔊 Sound effects for immersive gameplay
-* ⏱ Countdown timer system
-* 🏆 Win / Lose screen with score
-* 👤 Player name display above head
+* Real-time webcam-based motion tracking
+* AI-powered pose detection using MediaPipe
+* Dynamic Red Light / Green Light game logic
+* Integrated sound effects for immersive experience
+* Countdown timer with visual feedback
+* Win/Loss detection with score display
+* Player name overlay using pose landmarks
 
 ---
 
@@ -38,20 +30,18 @@ The system uses your webcam to track movement in real-time and determines whethe
 * OpenCV
 * MediaPipe (Pose Detection)
 * NumPy
-* Pygame
+* Pygame (Audio Processing)
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ System Workflow
 
-1. Webcam captures live video
-2. MediaPipe detects body landmarks
-3. System switches between:
-
-   * 🟢 Green Light → Movement allowed
-   * 🔴 Red Light → Movement detected = Lose
-4. Frame difference detects motion
-5. Game ends with Win or Game Over
+1. Capture live video stream using webcam
+2. Detect human pose landmarks via MediaPipe
+3. Alternate between Green Light (movement allowed) and Red Light (movement restricted)
+4. Apply frame differencing to detect motion
+5. Trigger game logic based on movement detection
+6. Display final outcome (Win / Game Over)
 
 ---
 
@@ -59,16 +49,16 @@ The system uses your webcam to track movement in real-time and determines whethe
 
 ```
 RED LIGHT GREEN LIGHT/
-│── frames/
-│── sounds/
+│── frames/        # Game visual assets
+│── sounds/        # Audio files
 │── RedLightGreenLight.py
 ```
 
 ---
 
-## ▶️ How to Run
+## ▶️ Installation & Execution
 
-```
+```bash
 pip install opencv-python mediapipe numpy pygame
 python RedLightGreenLight.py
 ```
@@ -77,22 +67,23 @@ python RedLightGreenLight.py
 
 ## 🎮 Controls
 
-* Q → Quit
-* R → Restart
+* Press **Q** → Exit the game
+* Press **R** → Restart the game
 
 ---
 
 ## 🎥 Demo
 
-(Add your demo images or GIF here)
+Refer to the YouTube link above for a complete demonstration.
 
 ---
 
-## 💡 Future Improvements
+## 💡 Future Enhancements
 
-* Multiplayer tracking
-* Difficulty levels
-* Leaderboard system
+* Multi-player tracking support
+* Difficulty level customization
+* Leaderboard integration
+* Web or mobile deployment
 
 ---
 
@@ -103,6 +94,4 @@ python RedLightGreenLight.py
 
 ---
 
-⭐ Star the repo if you like this project!
-
----
+⭐ If you found this project interesting, consider giving it a star!
