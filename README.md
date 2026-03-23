@@ -2,8 +2,6 @@
 
 🎥 **YouTube Demo:** [https://your-youtube-link-here.com](https://your-youtube-link-here.com)
 
----
-
 ## 📌 Overview
 
 This project presents an AI-powered recreation of the popular **"Red Light, Green Light"** game inspired by Squid Game, built using **Computer Vision** and **Pose Detection** techniques.
@@ -89,8 +87,8 @@ Refer to the YouTube link above for a complete demonstration.
 
 ## 📬 Contact
 
-* GitHub: [https://github.com/yourusername](https://github.com/yourusername)
-* LinkedIn: [https://linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+* GitHub: [https://github.com/yourusername](https://github.com/Janviswa)
+* LinkedIn: [https://linkedin.com/in/yourprofile](www.linkedin.com/in/jananiv05)
 
 ---
 
