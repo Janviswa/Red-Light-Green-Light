@@ -1,7 +1,5 @@
 # 🎮 AI Red Light Green Light Game (Squid Game)
 
-🎥 **YouTube Demo:** [https://your-youtube-link-here.com](https://your-youtube-link-here.com)
-
 ## 📌 Overview
 
 💡 This project was developed as a fun and interactive AI experiment inspired by the Squid Game series. This project presents an AI-powered recreation of the popular "Red Light, Green Light" game inspired by Squid Game, built using Computer Vision and Pose Detection techniques.
@@ -30,12 +28,14 @@ The system leverages real-time webcam input to monitor player movement and enfor
 
 ## ⚙️ System Workflow
 
-1. Capture live video stream using webcam
-2. Detect human pose landmarks via MediaPipe
-3. Alternate between Green Light (movement allowed) and Red Light (movement restricted)
-4. Apply frame differencing to detect motion
-5. Trigger game logic based on movement detection
-6. Display final outcome (Win / Game Over)
+1. Capture live video stream using webcam  
+2. Detect human pose landmarks via MediaPipe  
+3. Alternate between:  
+   - 🟢 Green Light → Movement allowed  
+   - 🔴 Red Light → Movement restricted  
+4. Apply frame differencing to detect motion  
+5. Trigger game logic based on movement detection  
+6. Display final outcome (Win / Game Over)  
 
 
 ## 📁 Project Structure
@@ -63,7 +63,7 @@ python RedLightGreenLight.py
 
 ## 🎥 Demo
 
-Refer to the YouTube link above for a complete demonstration.
+🎥 **YouTube Demo:** [https://your-youtube-link-here.com](https://your-youtube-link-here.com)
 
 
 ## 💡 Future Enhancements
