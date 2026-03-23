@@ -75,8 +75,8 @@ Refer to the YouTube link above for a complete demonstration.
 
 ## 📬 Contact
 
-* GitHub: [https://github.com/yourusername](https://github.com/Janviswa)
-* LinkedIn: [https://linkedin.com/in/yourprofile](www.linkedin.com/in/jananiv05)
+* GitHub: [github.com](https://github.com/Janviswa)
+* LinkedIn: [linkedin.com](www.linkedin.com/in/jananiv05)
 
 
 ⭐ If you found this project interesting, consider giving it a star!
