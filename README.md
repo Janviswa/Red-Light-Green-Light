@@ -63,8 +63,7 @@ python RedLightGreenLight.py
 
 ## 🎥 Demo
 
-🎥 **YouTube Demo:** [https://your-youtube-link-here.com](https://your-youtube-link-here.com)
-
+🎥 YouTube Demo: https://your-youtube-link-here.com
 
 ## 💡 Future Enhancements
 
