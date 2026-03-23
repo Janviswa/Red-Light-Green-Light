@@ -8,7 +8,6 @@ This project presents an AI-powered recreation of the popular **"Red Light, Gree
 
 The system leverages real-time webcam input to monitor player movement and enforces game rules by detecting motion during "Red Light" phases.
 
----
 
 ## 🚀 Key Features
 
@@ -20,7 +19,6 @@ The system leverages real-time webcam input to monitor player movement and enfor
 * Win/Loss detection with score display
 * Player name overlay using pose landmarks
 
----
 
 ## 🧠 Technologies Used
 
@@ -30,7 +28,6 @@ The system leverages real-time webcam input to monitor player movement and enfor
 * NumPy
 * Pygame (Audio Processing)
 
----
 
 ## ⚙️ System Workflow
 
@@ -41,7 +38,6 @@ The system leverages real-time webcam input to monitor player movement and enfor
 5. Trigger game logic based on movement detection
 6. Display final outcome (Win / Game Over)
 
----
 
 ## 📁 Project Structure
 
@@ -52,7 +48,6 @@ RED LIGHT GREEN LIGHT/
 │── RedLightGreenLight.py
 ```
 
----
 
 ## ▶️ Installation & Execution
 
@@ -61,20 +56,16 @@ pip install opencv-python mediapipe numpy pygame
 python RedLightGreenLight.py
 ```
 
----
-
 ## 🎮 Controls
 
 * Press **Q** → Exit the game
 * Press **R** → Restart the game
 
----
 
 ## 🎥 Demo
 
 Refer to the YouTube link above for a complete demonstration.
 
----
 
 ## 💡 Future Enhancements
 
@@ -83,13 +74,10 @@ Refer to the YouTube link above for a complete demonstration.
 * Leaderboard integration
 * Web or mobile deployment
 
----
-
 ## 📬 Contact
 
 * GitHub: [https://github.com/yourusername](https://github.com/Janviswa)
 * LinkedIn: [https://linkedin.com/in/yourprofile](www.linkedin.com/in/jananiv05)
 
----
 
 ⭐ If you found this project interesting, consider giving it a star!
