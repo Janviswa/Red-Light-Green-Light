@@ -4,10 +4,9 @@
 
 ## 📌 Overview
 
-This project presents an AI-powered recreation of the popular **"Red Light, Green Light"** game inspired by Squid Game, built using **Computer Vision** and **Pose Detection** techniques.
+💡 This project was developed as a fun and interactive AI experiment inspired by the Squid Game series. This project presents an AI-powered recreation of the popular "Red Light, Green Light" game inspired by Squid Game, built using Computer Vision and Pose Detection techniques.
 
 The system leverages real-time webcam input to monitor player movement and enforces game rules by detecting motion during "Red Light" phases.
-
 
 ## 🚀 Key Features
 
