@@ -1,4 +1,4 @@
-# 🦑 AI Red Light Green Light — Squid Game Edition
+# 🚦 Red Light Green Light — Squid Game Edition
 
 > A real-time AI-powered recreation of the iconic *Red Light, Green Light* game using computer vision and pose detection.
 
