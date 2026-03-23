@@ -1,83 +1,108 @@
-# 🎮 AI Red Light Green Light Game (Squid Game)
+# 🦑 AI Red Light Green Light — Squid Game Edition
+
+> A real-time AI-powered recreation of the iconic *Red Light, Green Light* game using computer vision and pose detection.
+
+---
 
 ## 📌 Overview
 
-💡 This project was developed as a fun and interactive AI experiment inspired by the *Squid Game* series.
+This project is a fun and interactive AI experiment inspired by the *Squid Game* series. It uses live webcam input, MediaPipe pose detection, and frame-differencing to enforce game rules — if you move during **Red Light**, it's game over.
 
-It presents an AI-powered recreation of the classic **"Red Light, Green Light"** game using **Computer Vision** and **Pose Detection** techniques.
+---
 
-The system uses real-time webcam input to monitor player movement and enforces game rules by detecting motion during "Red Light" phases.
+## ✨ Features
 
-## 🚀 Key Features
+- 🎥 Real-time webcam-based motion tracking
+- 🤖 AI-powered pose detection via MediaPipe
+- 🔴🟢 Dynamic Red Light / Green Light game logic
+- 🔊 Integrated sound effects for immersive gameplay
+- ⏱️ Countdown timer with visual feedback
+- 🏆 Win / Game Over detection with score display
+- 🙋 Player name overlay using pose landmarks
 
-* Real-time webcam-based motion tracking
-* AI-powered pose detection using MediaPipe
-* Dynamic Red Light / Green Light game logic
-* Integrated sound effects for immersive experience
-* Countdown timer with visual feedback
-* Win/Loss detection with score display
-* Player name overlay using pose landmarks
+---
 
+## 🧠 Tech Stack
 
-## 🧠 Technologies Used
+| Category | Technology |
+|---|---|
+| Language | Python |
+| Computer Vision | OpenCV |
+| Pose Detection | MediaPipe |
+| Numerical Processing | NumPy |
+| Audio | Pygame |
 
-* Python
-* OpenCV
-* MediaPipe (Pose Detection)
-* NumPy
-* Pygame (Audio Processing)
+---
 
+## ⚙️ How It Works
 
-## ⚙️ System Workflow
+1. Capture live video stream via webcam
+2. Detect human pose landmarks using MediaPipe
+3. Alternate game phases:
+   - 🟢 **Green Light** → Movement allowed
+   - 🔴 **Red Light** → Movement restricted
+4. Apply frame differencing to detect motion between frames
+5. Trigger win/loss logic based on movement during Red Light
+6. Display final outcome — **You Win** or **Game Over**
 
-1. Capture live video stream using webcam  
-2. Detect human pose landmarks via MediaPipe  
-3. Alternate between:  
-   - 🟢 Green Light → Movement allowed  
-   - 🔴 Red Light → Movement restricted  
-4. Apply frame differencing to detect motion  
-5. Trigger game logic based on movement detection  
-6. Display final outcome (Win / Game Over)  
-
+---
 
 ## 📁 Project Structure
 
 ```
 RED LIGHT GREEN LIGHT/
-│── frames/        # Game visual assets
-│── sounds/        # Audio files
-│── RedLightGreenLight.py
+├── frames/                  # Game visual assets
+├── sounds/                  # Audio files
+└── RedLightGreenLight.py    # Main game script
 ```
 
+---
 
-## ▶️ Installation & Execution
+## 🚀 Installation & Setup
+
+**1. Install dependencies:**
 
 ```bash
 pip install opencv-python mediapipe numpy pygame
+```
+
+**2. Run the game:**
+
+```bash
 python RedLightGreenLight.py
 ```
 
+---
+
 ## 🎮 Controls
 
-* Press **Q** → Exit the game
-* Press **R** → Restart the game
+| Key | Action |
+|-----|--------|
+| `Q` | Quit the game |
+| `R` | Restart the game |
 
+---
 
 ## 🎥 Demo
 
-🎥 YouTube Demo: https://your-youtube-link-here.com
+📺 [Watch on YouTube](https://your-youtube-link-here.com)
 
-## 💡 Future Enhancements
+---
 
-* Multi-player tracking support
-* Difficulty level customization
-* Leaderboard integration
-* Web or mobile deployment
+## 🔮 Future Enhancements
 
-## 📬 Contact
+- [ ] Multi-player tracking support
+- [ ] Difficulty level customization
+- [ ] Leaderboard integration
+- [ ] Web or mobile deployment
 
-* GitHub: [github.com](https://github.com/Janviswa)
-* LinkedIn: [linkedin.com](https://www.linkedin.com/in/jananiv05/)
+---
 
+## 📬 Connect
 
-⭐ If you found this project interesting, consider giving it a star!
+- 🐙 GitHub: [github.com/Janviswa](https://github.com/Janviswa)
+- 💼 LinkedIn: [linkedin.com/in/jananiv05](https://www.linkedin.com/in/jananiv05/)
+
+---
+
+⭐ *If you found this project interesting, consider giving it a star!*
