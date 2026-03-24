@@ -1,4 +1,4 @@
-# 🚦 Red Light Green Light — Squid Game Edition
+# 🚦 AI Red Light Green Light — Squid Game Edition
 
 > A real-time AI-powered recreation of the iconic *Red Light, Green Light* game using computer vision and pose detection.
 
@@ -60,17 +60,39 @@ RED LIGHT GREEN LIGHT/
 
 ## 🚀 Installation & Setup
 
-**1. Install dependencies:**
+**1. Clone the repository:**
 
 ```bash
-pip install opencv-python mediapipe numpy pygame
+git clone https://github.com/Janviswa/Red-Light-Green-Light.git
+cd Red-Light-Green-Light
 ```
 
-**2. Run the game:**
+**2. Create and activate a virtual environment:**
+
+```bash
+# Create venv
+python -m venv venv
+
+# Activate — Windows
+venv\Scripts\activate
+
+# Activate — Mac/Linux
+source venv/bin/activate
+```
+
+**3. Install dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Run the game:**
 
 ```bash
 python RedLightGreenLight.py
 ```
+
+> 💡 To deactivate the virtual environment when done: `deactivate`
 
 ---
 
@@ -85,7 +107,7 @@ python RedLightGreenLight.py
 
 ## 🎥 Demo
 
-📺 [Watch on YouTube](https://youtu.be/UASEDFtbumI)
+📺 [Watch on YouTube](https://your-youtube-link-here.com)
 
 ---
 
